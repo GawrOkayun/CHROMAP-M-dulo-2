@@ -1,0 +1,117 @@
+@font-face{
+    font-family: "glacial";
+    src: url(../fonts/GlacialIndifference-Regular.otf);
+    font-style: normal;
+}
+/*CONFIGURAÇÕES PADRÃO*/
+*{
+    font-family: "glacial";
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;/*/
+}
+
+:root{
+    --cor_Escura_Fundo: rgb(0, 0, 0);
+    --cor_Clara_Texto: rgb(255, 255, 255);
+}
+
+body{
+   
+}
+
+header{
+    width: 100vw;
+    height:60px;
+    background-color: var(--cor_Escura_Fundo);
+    color: var(--cor_Clara_Texto);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*FINAL DAS CONFIGURAÇÕES PADRÃO*/
+
+/*PAGINA INICIAL*/
+.container-geral-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*
+ display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3%;
+    max-width: 80vw;*/
+.header-home p
+{
+    margin: 0;
+}
+
+main{
+margin-top: 40px;
+}
+.container-logo-home{
+    width: 470px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container-logo-home h1{
+    font-size: 400%;
+}
+
+.container-logo-home img{
+    max-width: 200px;
+}
+
+.container-logo-home h2{
+    margin-top: 15px;
+}
+
+.container-descricao-home{
+    width: 400px;
+    height: 350px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-descricao-home p{
+    text-align: justify;
+}
+
+.botaoLista{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.botaoLista button{
+    font-size: 50%;
+}
+
+.botaoLista button{
+    border-radius: 25px;
+    padding: 10px;
+}
+/*FINAL PAGINA INICIAL */
+
+/*PAGINA DE DETALHAMENTO*/
+
+
+
+/*FINAL PAGINA DE DETALHAMENTO*/
+
+
