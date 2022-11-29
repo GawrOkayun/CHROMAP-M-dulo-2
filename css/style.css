@@ -116,7 +116,7 @@ margin-top: 40px;
 
 #todos-servicos h2, #section-preto-e-branco h2, #section-sepia h2, #section-arco-iris h2{
     text-align: center;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 .container-cartoes-servicos{
@@ -159,6 +159,7 @@ margin-top: 40px;
 
 #section-preto-e-branco img, #section-sepia img, #section-arco-iris img{
     max-width: 300px;
+    margin: 10px;
 }
 
 .cartaozao{
@@ -166,26 +167,96 @@ margin-top: 40px;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 10px 30px;
 }
 .cartaozao-preto-e-branco{
     
 }
 
 .cartao-detalhamento-servicos{
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 50%;
     height: 100%;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+    margin: 15px;
+}
+
+.cartao-detalhamento-servicos:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 
 .cartaozao-preto-e-branco img{
     filter: grayscale(100%);
 }
 
+.lista-beneficios{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container-precos{
+    display: flex;
+    flex-direction: column;
+}
+
+.preco-original{
+    color: brown;
+}
+
+.preco-desconto{
+    color: darkgreen;
+}
+
 .cartaozao-sepia img{
     filter: sepia(100%);
 }
 
+.container-contato-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
 
+.container-contato-footer p{
+    text-align: center;
+}
+
+.dados-footer p{
+    text-align: center;
+}
+
+.containerzinho{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerzinho a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.containerzinho img{
+    width: 50px;
+}
+
+footer{
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /*FINAL PAGINA DE DETALHAMENTO*/
 
 
