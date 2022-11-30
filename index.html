@@ -11,43 +11,34 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header-home">
-        <div class="nomeDaEmpresa">
+    <header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
 
-          <p>FrontEnders</p>
-
-        </div>
-
-        <div class="menuHamburger">
-
-          <nav class="navbar">
-            <a href="#" class="nav-branding"></a>
-
-            <ul class="nav-menu">
-                
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Login</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Serviços</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Tres</a>
-                </li>
-
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FrontEnders</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-
-          </nav>
-
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Serviços</a>
+                </li>
+                
+            </div>
+          </div>
         </div>
+      </nav>
     </header>
+
         <main class="container-geral-home">
             <div class="container-logo-home">
                 <h1>CHROMAP</h1>
@@ -57,7 +48,7 @@
             <div class="container-descricao-home">
                 <p>Tecnologia de inteligência artificial capaz de selecionar, organizar e indicar paletas de cores para a sua marca e interfaces interativas.</p>
                 <div class="botaoLista">
-                    <button type="button" class="btn btn-dark">Participar da lista <br> de espera</button>
+                    <button type="button" class="btn btn-dark">Participar da lista de <br> espera</button>
                 </div>
             </div>
         </main>
