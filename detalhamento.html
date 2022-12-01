@@ -13,7 +13,6 @@
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
-
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">FrontEnders</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -31,15 +30,31 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="detalhamento.html">Serviços</a>
-                      
                     </li>
-                    
                 </div>
               </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
+        <section id="cores">
+            <p>Faça sua cor!</p>
+            <div class="containerzao-input">
+                <div class="container-inputs-cores">
+                    <input type="checkbox" name="amarelo" id="amarelo">
+                    <label for="amarelo">Amarelo</label>
+                </div>
+                <div class="container-inputs-cores">
+                    <input type="checkbox" name="azul" id="azul">
+                    <label for="azul">Azul</label>
+                </div>
+                <div class="container-inputs-cores">
+                    <input type="checkbox" name="vermelho" id="vermelho">
+                    <label for="vermelho">Vermelho</label>
+                </div>
+            </div>
+            <button id="testar-cores">Testar</button>
+        </section>
         <section id="todos-servicos">
             <h2>Pacotes de serviços</h2>
             <div class="container-cartoes-servicos">
@@ -146,4 +161,5 @@
     </div>
     </footer>
 </body>
+<script src="./scripts/cores.js"></script>
 </html>

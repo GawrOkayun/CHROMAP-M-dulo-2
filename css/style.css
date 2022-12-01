@@ -107,9 +107,25 @@ margin-top: 40px;
 /*FINAL PAGINA INICIAL */
 
 /*PAGINA DE DETALHAMENTO*/
+#cores p{
+    margin: 0px;
+}
+
+#cores{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.containerzao-input{
+    display: flex;
+    gap: 20px;
+}
+
 #todos-servicos{
     display: flex;
     flex-direction: column;
+    margin-top: 70px;
 }
 
 #todos-servicos h2, #section-preto-e-branco h2, #section-sepia h2, #section-arco-iris h2{
