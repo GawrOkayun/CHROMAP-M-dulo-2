@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
+    <title>Detalhamento</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">FrontEnders</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="detalhamento.html">Serviços</a>
+                    </li>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="cores">
+            <p>Faça sua cor!</p>
+            <div class="containerzao-input">
+                <div class="container-inputs-cores">
+                    <input type="checkbox" name="amarelo" id="amarelo">
+                    <label for="amarelo">Amarelo</label>
+                </div>
+                <div class="container-inputs-cores">
+                    <input type="checkbox" name="azul" id="azul">
+                    <label for="azul">Azul</label>
+                </div>
+                <div class="container-inputs-cores">
+                    <input type="checkbox" name="vermelho" id="vermelho">
+                    <label for="vermelho">Vermelho</label>
+                </div>
+            </div>
+            <button id="testar-cores">Testar</button>
+        </section>
+        <section id="todos-servicos">
+            <h2>Pacotes de serviços</h2>
+            <div class="container-cartoes-servicos">
+                <div class="cartao-servicos cartao-preto-e-branco">
+                    <h3>Black & White</h3>
+                    <img src="./images/chromap_logo.PNG" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint fugiat officia sit, architecto, quos hic temporibus necessitatibus ex ea, modi amet error. Sunt aliquam officia repellendus!</p>
+                    <a href="#section-preto-e-branco">Mais detalhes</a>
+                </div>
+                <div class="cartao-servicos cartao-sepia">
+                    <h3>Sepia</h3>
+                    <img src="./images/chromap_logo.PNG" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint fugiat officia sit, architecto, quos hic temporibus necessitatibus ex ea, modi amet error. Sunt aliquam officia repellendus!</p>
+                    <a href="#section-sepia">Mais detalhes</a>                    
+                </div>
+                <div class="cartao-servicos cartao-arco-iris">
+                    <h3>Rainbow</h3>
+                    <img src="./images/chromap_logo.PNG" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint fugiat officia sit, architecto, quos hic temporibus necessitatibus ex ea, modi amet error. Sunt aliquam officia repellendus!</p>
+                    <a href="#section-arco-iris">Mais detalhes</a>
+                </div>
+            </div>
+        </section>
+        <section id="section-preto-e-branco">
+            <div class="cartaozao cartaozao-preto-e-branco">
+                    <div class="cartao-detalhamento-servicos">
+                        <h2>black & White</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ab dolores nemo nisi at debitis eaque quas repudiandae perspiciatis cupiditate. Recusandae quod quae sunt quibusdam enim neque velit sed animi?</p>
+                        <div class="lista-beneficios">
+                            <p>Benefício 1</p>
+                            <p>Benefício 2</p>
+                        </div>
+                        <div class="container-precos">
+                            <span class="preco-original"><b><s>R$99,99</s></b></span>
+                            <span class="preco-desconto"><b>R$49,99</b></span>
+                        </div>
+                    </div>
+                <img src="./images/chromap_logo.PNG" alt="">
+            </div>
+        </section>
+        <section id="section-sepia">
+            <div class="cartaozao cartaozao-sepia">
+                <div class="cartao-detalhamento-servicos">
+                    <h2>Sepia</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ratione, magnam ullam repudiandae deleniti voluptate facilis nihil libero harum cum corporis sunt nobis. Quas aperiam nulla alias fugit molestiae dolorum!</p>
+                    <div class="lista-beneficios">
+                        <p>Benefício 1</p>
+                        <p>Benefício 2</p>
+                        <p>Benefício 3</p>
+                    </div>
+                    <div class="container-precos">
+                        <span class="preco-original"><b><s>R$199,99</s></b></span>
+                        <span class="preco-desconto"><b>R$99,99</b></span>
+                    </div>
+                </div>
+                <img src="./images/chromap_logo.PNG" alt="">
+            </div>
+        </section>
+        <section id="section-arco-iris">
+            <div class="cartaozao cartaozao-arco-iris">
+                <div class="cartao-detalhamento-servicos">
+                    <h2>Rainbow</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam esse officia voluptatum iste expedita sequi deserunt delectus illo laboriosam magni natus atque placeat, beatae saepe, autem in ad eos tempore!</p>
+                    <div class="lista-beneficios">
+                        <p>Benefício 1</p>
+                        <p>Benefício 2</p>
+                        <p>Benefício 3</p>
+                        <p>Benefício 4</p>
+                        <p>Benefício 5</p>
+                    </div>
+                    <div class="container-precos">
+                        <span class="preco-original"><b><s>R$299,99</s></b></span>
+                        <span class="preco-desconto"><b>R$199,99</b></span>
+                    </div>
+                </div>
+                <img src="./images/chromap_logo.PNG" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+    <div class="container-contato-footer">
+        <p>CONTATOS</p>
+        <div class="containerzinho">
+            <img src="./images/gmail.png" alt="logo gmail">
+            <a href="">chromap.com.br</a>
+        </div>
+        <div class="containerzinho">
+            <img src="./images/whatsapp.png" alt="logo whats app">
+            <a href="">(21) 0000-0000</a>
+        </div>
+        <div class="containerzinho">
+            <img src="./images/linkedin.png" alt="logo linkedin">
+            <a href="">Linkedin</a>
+        </div>
+    </div>
+    <div class="dados-footer">
+        <p>DADOS</p>
+        <div class="containerzinho">
+            <p>CNPJ - 00.000.000.0000/00</p>
+        </div>
+        <div class="containerzinho">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores?</p>
+        </div>
+    </div>
+    </footer>
+</body>
+<script src="./scripts/cores.js"></script>
+</html>
