@@ -125,7 +125,11 @@ main{
 
 #cores{
     margin-top: 56px;
+<<<<<<< HEAD
     display: none;
+=======
+    display: flex;
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
     gap: 20px;
 }
 
@@ -291,7 +295,11 @@ footer{
     align-items: center;
 }
 
+<<<<<<< HEAD
 /*.amarelo:root{
+=======
+.amarelo:root{
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
     --cor_Escura_Fundo: rgb(0, 0, 0);
     --cor_Clara_Texto: rgb(255, 255, 255);
     --cor_Fundo_Header: rgb(232, 248, 0);
@@ -304,7 +312,11 @@ footer{
     --cor_Texto_Footer: black;
     --cor_Links_Footer: blue;
 }
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
 
 /*FINAL PAGINA DE DETALHAMENTO*/
 
@@ -314,4 +326,112 @@ footer{
     margin-top: 50%;
 }
 
+<<<<<<< HEAD
+=======
+.containerGeralForm{
+    display: flex;
+    justify-content: center;
+}
+
+.containerGeralSecundarioLE{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid;
+    padding: 10px;
+}
+
+.formViaCEP{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid;
+    padding: 10px;
+}
+
+.formulario{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 0.5rem;
+    width: 500px;
+}
+
+input{
+    padding: 100px;
+}
+
+.formulario{
+    box-shadow: 3px  5px 8px #cfcccc;
+}
+
+
+input.form-control{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.lateral{
+    width: 50px;
+    background-color:#000000;
+    /* background-image: url(../img/self.png); */
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-right: -10px;
+    z-index: 3;
+}
+
+.btn-custom{
+  /*  padding: 5px 25px 5px 25px;*/
+    border-radius: 20%;
+}
+
+.btn-success{
+   background-color: #000000;
+}
+
+.form-control{
+    border: 0px;
+}
+
+.form-control#numero{
+    border: 1px solid #e9ecef;
+}
+
+.form-control#cep{
+    border: 1px solid #e9ecef;
+}
+
+/*PAGINA DA NOSSA EQUIPE*/
+
+.card{
+    display: flex;
+}
+
+.card img{
+    max-width: 300px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+
+/*FIM DA PAGINA DA NOSSA EQUIPE*/
+
+
+
+
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
 
