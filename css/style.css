@@ -125,7 +125,15 @@ main{
 
 #cores{
     margin-top: 56px;
+<<<<<<< HEAD
     display: none;
+=======
+<<<<<<< HEAD
+    display: none;
+=======
+    display: flex;
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
+>>>>>>> b4c1f2164749f4ba61ccaa04040ec80fd75cd9d6
     gap: 20px;
 }
 
@@ -291,7 +299,15 @@ footer{
     align-items: center;
 }
 
+<<<<<<< HEAD
 /*.amarelo:root{
+=======
+<<<<<<< HEAD
+/*.amarelo:root{
+=======
+.amarelo:root{
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
+>>>>>>> b4c1f2164749f4ba61ccaa04040ec80fd75cd9d6
     --cor_Escura_Fundo: rgb(0, 0, 0);
     --cor_Clara_Texto: rgb(255, 255, 255);
     --cor_Fundo_Header: rgb(232, 248, 0);
@@ -303,8 +319,16 @@ footer{
     --cor_Fundo_Footer: rgb(177, 176, 109);
     --cor_Texto_Footer: black;
     --cor_Links_Footer: blue;
+<<<<<<< HEAD
 }*/
+=======
+}
+<<<<<<< HEAD
+*/
+=======
+>>>>>>> b4c1f2164749f4ba61ccaa04040ec80fd75cd9d6
 
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
 
 /*FINAL PAGINA DE DETALHAMENTO*/
 
@@ -314,6 +338,8 @@ footer{
     margin-top: 50%;
 }
 
+<<<<<<< HEAD
+=======
 .containerGeralForm{
     display: flex;
     justify-content: center;
@@ -419,4 +445,5 @@ input.form-control{
 
 
 
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
 
