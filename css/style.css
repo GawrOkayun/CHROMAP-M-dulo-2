@@ -11,9 +11,22 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--cor_Fundo_Body);
+}
+
 :root{
     --cor_Escura_Fundo: rgb(0, 0, 0);
     --cor_Clara_Texto: rgb(255, 255, 255);
+    --cor_Fundo_Header: black;
+    --cor_Texto_Header: white;
+    --cor_Fundo_Body: white;
+    --cor_H2: black;
+    --cor_H3: black;
+    --cor_Links: blue;
+    --cor_Fundo_Footer: rgb(207, 204, 204);
+    --cor_Texto_Footer: black;
+    --cor_Links_Footer: blue;
 }
 
 /*FINAL DAS CONFIGURAÇÕES PADRÃO*/
@@ -26,9 +39,7 @@
     flex-wrap: wrap;
 }
 
-
-.header-home p
-{
+.header-home p{
     margin: 0;
 }
 
@@ -37,7 +48,8 @@
 }
 
 main{
-margin-top: 40px;
+    margin-top: 40px;
+    background-color: var(--cor_Fundo_Body);
 }
 .container-logo-home{
     margin-top: 100px;
@@ -112,8 +124,8 @@ margin-top: 40px;
 }
 
 #cores{
-    margin-top: 60px;
-    display: flex;
+    margin-top: 56px;
+    display: none;
     gap: 20px;
 }
 
@@ -130,6 +142,8 @@ margin-top: 40px;
 
 #todos-servicos h2, #section-preto-e-branco h2, #section-sepia h2, #section-arco-iris h2{
     text-align: center;
+    color: var(--cor_H2);
+    /*text-shadow: 0.1em 0.1em 0.1em black;*/
     /*margin-bottom: 30px;*/
 }
 
@@ -148,7 +162,7 @@ margin-top: 40px;
     margin: 0px 10px;
     margin-bottom: 30px;
     max-width: 300px;
-    /*border: solid 2px black;*/
+    
 }
 
 .cartao-servicos p{
@@ -181,9 +195,9 @@ margin-top: 40px;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    border: solid 2px black;
+    /*border: solid 2px black;*/
     border-radius: 5px;
-    margin: 10px 30px;
+    margin: 30px 30px;
 }
 .cartaozao-preto-e-branco{
     
@@ -193,6 +207,7 @@ margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     gap: 10px;
     max-width: 50%;
     height: 100%;
@@ -200,7 +215,10 @@ margin-top: 40px;
     border-radius: 5px;
     padding: 10px;
     transition: 0.5s;
-    margin: 15px;
+}
+
+.cartao-detalhamento-servicos p{
+    text-align: justify;
 }
 
 .cartao-detalhamento-servicos:hover{
@@ -211,11 +229,12 @@ margin-top: 40px;
     filter: grayscale(100%);
 }
 
+.lista-beneficios p{
+    margin: 0px;
+}
 .lista-beneficios{
-    list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .container-precos{
@@ -266,11 +285,27 @@ margin-top: 40px;
 }
 
 footer{
-    background-color: rgb(199, 199, 199);
+    background-color: var(--cor_Fundo_Footer);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+/*.amarelo:root{
+    --cor_Escura_Fundo: rgb(0, 0, 0);
+    --cor_Clara_Texto: rgb(255, 255, 255);
+    --cor_Fundo_Header: rgb(232, 248, 0);
+    --cor_Texto_Header: white;
+    --cor_Fundo_Body:rgb(248, 244, 190);
+    --cor_H2: rgb(212, 191, 1);
+    --cor_H3: black;
+    --cor_Links: blue;
+    --cor_Fundo_Footer: rgb(177, 176, 109);
+    --cor_Texto_Footer: black;
+    --cor_Links_Footer: blue;
+}
+*/
+
 /*FINAL PAGINA DE DETALHAMENTO*/
 
 /*INÍCIO PÁGINA DA LISTA DE ESPERA*/
