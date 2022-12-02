@@ -125,7 +125,7 @@ main{
 
 #cores{
     margin-top: 56px;
-    display: none;
+    display: flex;
     gap: 20px;
 }
 
@@ -291,7 +291,7 @@ footer{
     align-items: center;
 }
 
-/*.amarelo:root{
+.amarelo:root{
     --cor_Escura_Fundo: rgb(0, 0, 0);
     --cor_Clara_Texto: rgb(255, 255, 255);
     --cor_Fundo_Header: rgb(232, 248, 0);
@@ -304,7 +304,7 @@ footer{
     --cor_Texto_Footer: black;
     --cor_Links_Footer: blue;
 }
-*/
+
 
 /*FINAL PAGINA DE DETALHAMENTO*/
 
@@ -347,7 +347,6 @@ footer{
     padding: 30px;
     border-radius: 0.5rem;
     width: 500px;
-    
 }
 
 input{
@@ -356,19 +355,16 @@ input{
 
 .formulario{
     box-shadow: 3px  5px 8px #cfcccc;
-    
 }
 
 
 input.form-control{
-
     font-size: 18px;
     margin: 10px;
 }
 
 .lateral{
-  
-   width: 50px;
+    width: 50px;
     background-color:#000000;
     /* background-image: url(../img/self.png); */
     border-top-left-radius: 0.5rem;
@@ -381,12 +377,8 @@ input.form-control{
   /*  padding: 5px 25px 5px 25px;*/
     border-radius: 20%;
 }
-img{
-    margin-top: 50%;
-    width: 100%;
-}
+
 .btn-success{
-    
    background-color: #000000;
 }
 
@@ -401,6 +393,28 @@ img{
 .form-control#cep{
     border: 1px solid #e9ecef;
 }
+
+/*PAGINA DA NOSSA EQUIPE*/
+
+.card{
+    display: flex;
+}
+
+.card img{
+    max-width: 300px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+
+/*FIM DA PAGINA DA NOSSA EQUIPE*/
 
 
 
