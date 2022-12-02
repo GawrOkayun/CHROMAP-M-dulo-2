@@ -125,7 +125,11 @@ main{
 
 #cores{
     margin-top: 56px;
+<<<<<<< HEAD
+    display: none;
+=======
     display: flex;
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
     gap: 20px;
 }
 
@@ -291,7 +295,11 @@ footer{
     align-items: center;
 }
 
+<<<<<<< HEAD
+/*.amarelo:root{
+=======
 .amarelo:root{
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
     --cor_Escura_Fundo: rgb(0, 0, 0);
     --cor_Clara_Texto: rgb(255, 255, 255);
     --cor_Fundo_Header: rgb(232, 248, 0);
@@ -304,7 +312,11 @@ footer{
     --cor_Texto_Footer: black;
     --cor_Links_Footer: blue;
 }
+<<<<<<< HEAD
+*/
+=======
 
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
 
 /*FINAL PAGINA DE DETALHAMENTO*/
 
@@ -314,6 +326,8 @@ footer{
     margin-top: 50%;
 }
 
+<<<<<<< HEAD
+=======
 .containerGeralForm{
     display: flex;
     justify-content: center;
@@ -419,4 +433,5 @@ input.form-control{
 
 
 
+>>>>>>> af25836bc33de7bd8a1ede406540755a09660874
 

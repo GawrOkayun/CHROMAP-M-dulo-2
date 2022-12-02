@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <form method="post" id="login_form" name="login_form" action="#">
+    <div class="background-image"></div>
+    <div class="mainlog">
+        <div class="leftlog">
+           <h1><br>CHROMAP<sup>®️</sup></h1>
+            <img src="./images/chromap_logo.PNG" class="ImagemEsquerdaLog" alt="LogoArcoIris">
+    </div>
+    <div class="rightlog">
+        <div class="barralogin">
+            <h1>Login</h1>
+            <div class="lugartex">
+                <label for="usuario">E-Mail</label><br>
+                <input type="email" name="email" placeholder="Usuário" minlength=4 maxlength=20 id="email" required>
+                <small>Erro</small>
+    </div>
+    <div>
+    <a class="label-link position-absolute top-0 right-0" tabindex="0" href="#">Forgot password?</a>
+</div>
+    <div class="barralogin">
+        <div class="lugarsenha"> 
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" placeholder="Password" minlength=8  maxlength=20 id="password" required>
+        </div>
+        </div>
+       <button href="/CHROMAP-M-dulo-2-main/detalhamento.html" type="submit" id="submit" name="submit" value="Log In" class="buttonslogin">Login</button>
+     </div>
+  </div>
+</div>
+<br>
+</form>
+</body>
+<script src="login.js"></script>
+<style>
+    .background-image {
+        background-image: url(./images/rainbow.jpg);
+    }
+ </style>
+</html>
