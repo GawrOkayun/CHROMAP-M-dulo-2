@@ -4,40 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
     <title>Login</title>
 </head>
 <body>
-    <form method="post" id="login_form" name="login_form" action="#">
-    <div class="background-image"></div>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">FrontEnders</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="detalhamento.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="nossaequipe.html">Quem somos</a>
+                    </li>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     <div class="mainlog">
         <div class="leftlog">
-           <h1><br>CHROMAP<sup>®️</sup></h1>
-            <img src="./images/chromap_logo.PNG" class="ImagemEsquerdaLog" alt="LogoArcoIris">
-    </div>
-    <div class="rightlog">
-        <div class="barralogin">
+            <h1>CHROMAP<sup>®️</sup></h1>
+            <img src="./images/chromap_logo.PNG" class="ImagemEsquerdaLog" alt="logo da empresa arco-iris">
+        </div>
+        <div class="rightlog">
             <h1>Login</h1>
-            <div class="lugartex">
-                <label for="usuario">E-Mail</label><br>
-                <input type="email" name="email" placeholder="Usuário" minlength=4 maxlength=20 id="email" required>
-                <small>Erro</small>
+            <form method="post" id="login_form" name="login_form" action="#">
+                <div class="lugartex">
+                    <label for="usuario">E-Mail</label>
+                    <input type="email" name="email" placeholder="Usuário" minlength=4 maxlength=20 id="email" required>
+                    <small>Erro</small>
+                </div>
+                <div class="lugarsenha">
+                    <div class="container-senha-esqueceu">
+                        <label for="senha">Senha</label>
+                        <a class="forgot-pass" tabindex="0" href="#">Esqueci minha senha</a>
+                    </div>
+                    <input type="password" name="senha" placeholder="Password" minlength=8  maxlength=20 id="password" required>
+                </div>
+                <button type="submit" id="submit" name="submit" class="buttonslogin">Login</button>
+            </form>
+        </div>
     </div>
-    <div>
-    <a class="label-link position-absolute top-0 right-0" tabindex="0" href="#">Forgot password?</a>
-</div>
-    <div class="barralogin">
-        <div class="lugarsenha"> 
-            <label for="senha">Senha</label><br>
-            <input type="password" name="senha" placeholder="Password" minlength=8  maxlength=20 id="password" required>
+    <footer>
+    <div class="container-contato-footer">
+        <p>CONTATOS</p>
+        <div class="containerzinho">
+            <img src="./images/gmail.png" alt="logo gmail">
+            <a href="">chromap.com.br</a>
         </div>
+        <div class="containerzinho">
+            <img src="./images/whatsapp.png" alt="logo whats app">
+            <a href="">(21) 0000-0000</a>
         </div>
-       <button href="/CHROMAP-M-dulo-2-main/detalhamento.html" type="submit" id="submit" name="submit" value="Log In" class="buttonslogin">Login</button>
-     </div>
-  </div>
-</div>
-<br>
-</form>
+        <div class="containerzinho">
+            <img src="./images/linkedin.png" alt="logo linkedin">
+            <a href="">Linkedin</a>
+        </div>
+    </div>
+    <div class="dados-footer">
+        <p>DADOS</p>
+        <div class="containerzinho">
+            <p>CNPJ - 00.000.000.0000/00</p>
+        </div>
+        <div class="containerzinho">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores?</p>
+        </div>
+    </div>
+    </footer>
 </body>
 <script src="login.js"></script>
 <style>
