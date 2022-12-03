@@ -109,7 +109,7 @@ main{
 }
 
 .botaoLista :hover{
-    font-size: 71%;
+    
 }
 
 .botaoLista button{
@@ -366,6 +366,7 @@ input.form-control{
 .lateral{
     width: 50px;
     background-color:#000000;
+}
     /* background-image: url(../img/self.png); /
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -396,21 +397,71 @@ input.form-control{
 
 /PAGINA DA NOSSA EQUIPE*/
 
-.card{
+.container-geral-nossa-equipe{
+
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    background-color: #cfcccc;
 }
 
-.card img{
-    max-width: 300px;
+.container-secundario-nossa-equipe{
+    margin-top: 100px;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px
+;
+    
 }
 
-.card-body{
+.container-card-aluno{
+    width: 280px;
+    height: 400px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    box-shadow: 3px  5px 8px #747474;
+    transition: 0.7s ease;
+    background-color: rgb(255, 255, 255);
+
 }
 
-.redes-sociais{
+.container-card-aluno img{
+    border-radius: 15px;
+}
+
+.container-card-aluno:hover{
+    box-shadow: 3px  5px 8px #000000;
+}
+
+.container-card-aluno p {
+    font-size: 25px;
+    text-shadow: #000000;
+}
+
+.container-foto-aluno{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    
+}
+
+.container-info-aluno{
+    width: 200px;
+    height: 80px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px;
+    background-color: #e9e9e9;
+    border-radius: 15px;
 }
 
 /*FIM DA PAGINA DA NOSSA EQUIPE*/
