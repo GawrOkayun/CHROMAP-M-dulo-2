@@ -143,8 +143,6 @@ main{
 #todos-servicos h2, #section-preto-e-branco h2, #section-sepia h2, #section-arco-iris h2{
     text-align: center;
     color: var(--cor_H2);
-    /*text-shadow: 0.1em 0.1em 0.1em black;*/
-    /*margin-bottom: 30px;*/
 }
 
 .container-cartoes-servicos{
@@ -162,7 +160,6 @@ main{
     margin: 0px 10px;
     margin-bottom: 30px;
     max-width: 300px;
-    
 }
 
 .cartao-servicos p{
@@ -316,6 +313,7 @@ footer{
 .containerGeralForm{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .containerGeralSecundarioLE{
@@ -366,7 +364,7 @@ input.form-control{
 .lateral{
     width: 50px;
     background-color:#000000;
-    /* background-image: url(../img/self.png); /
+     background-image: url(../img/self.png); 
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     margin-right: -10px;
@@ -374,7 +372,7 @@ input.form-control{
 }
 
 .btn-custom{
-  /  padding: 5px 25px 5px 25px;/
+    padding: 5px 25px 5px 25px;
     border-radius: 20%;
 }
 
@@ -394,7 +392,7 @@ input.form-control{
     border: 1px solid #e9ecef;
 }
 
-/PAGINA DA NOSSA EQUIPE*/
+/*PAGINA DA NOSSA EQUIPE*/
 
 .card{
     display: flex;
