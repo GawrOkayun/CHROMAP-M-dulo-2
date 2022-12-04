@@ -28,7 +28,6 @@ body *{
 
 .leftlog{
     width: 50vw;
-    /*height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +39,6 @@ body *{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 .leftlog >h1 {
     font-size: 60px;
@@ -154,21 +151,6 @@ body *{
     justify-content: center;
     margin: 10px 0px;
 }
-/*.buttonslogin{
-    width: 120%;
-    margin-top: 30px;
-    padding: 16px 0px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 4px;
-    color: black;
-    background: rgb(87, 74, 0);
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px rgb(250, 219, 135);
-}*/
 
 .container-botao-colorido{
     position: relative;
@@ -259,8 +241,9 @@ body *{
     height: auto;
    }
    .rightlog{
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    min-height: 100vh;
+    
    }
 .ImagemEsquerdaLog{
 width: 50vw;
@@ -271,8 +254,11 @@ width: 50vw;
 }
 
 @media (max-width: 600px){
-    .leftlog img{
+    .leftlog{
         display: none;
+    }
+    .rightlog{
+        height: 100vw;
     }
 }
 
