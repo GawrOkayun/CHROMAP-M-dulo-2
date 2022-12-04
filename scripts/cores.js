@@ -11,15 +11,15 @@ botao_Testar_Cores.addEventListener('click', function(){
             alert("Escolha apenas duas cores!")
         }
         else if(checkbox_Azul.checked){
-            corpo_Html.classList.add('verde');
+            corpo_Html.classList = "html verde";
             console.log("Adicionando verde");
         }
         else if(checkbox_Vermelho.checked){
-            corpo_Html.classList.add('laranja');
+            corpo_Html.classList = "html laranja";
             console.log("Adicionando Laranja");
         }
         else{
-            corpo_Html.classList.add('amarelo');
+            corpo_Html.classList = "html amarelo";
             console.log("Adicionando amarelo");
         }
     }
@@ -27,18 +27,23 @@ botao_Testar_Cores.addEventListener('click', function(){
     else if(checkbox_Azul.checked){
         if(checkbox_Vermelho.checked)
         {
-            corpo_Html.classList.add('roxo');
+            corpo_Html.classList = "html roxo";
             console.log("Adicionando roxo");
         }
         else{
-            corpo_Html.classList.add('azul');
+            corpo_Html.classList = "html azul";
             console.log("Adicionando azul");
         }
     }
     else if(checkbox_Vermelho.checked){
-        corpo_Html.classList.add('vermelho');
+        corpo_Html.classList = "html vermelho";
         console.log("Adicionando vermelho");
+    }
+
+    else{
+        corpo_Html.classList = "html";
     }
 }
 )
 
+botao_Testar_Cores.addEventListener()
