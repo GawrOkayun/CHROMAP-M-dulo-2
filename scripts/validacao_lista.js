@@ -7,19 +7,12 @@ const rg_Input = document.getElementById('rg');
 const botao_enviar = document.getElementById('btn');
 const numero_Input = document.getElementById('numero');
 
-
-/*const usuario = {
-    nome: nome_Input.value,
-    email: email_Input.value,
-    senha: senha_Input.value, 
-    rg: rg_Input.value
-}*/
-
 botao_enviar.addEventListener("click", function (event){
    
     validando_Inputs();
 
 });
+
 
 function validando_Numero(){
     const valor_Numero = numero_Input.value.trim();
@@ -125,6 +118,8 @@ function validando_Rg(){
         rg_Input.style.backgroundColor = "rgb(224, 248, 200)";
     }
 }
+
+
 
 function validando_Inputs(){
     validando_Nome();
