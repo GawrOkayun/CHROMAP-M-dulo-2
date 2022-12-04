@@ -1,5 +1,11 @@
 const email = document.getElementById('email');
-$("#login_form").validate({
+const botao_Login = document.getElementById('submit');
+console.log("Carregou login")
+botao_Login.addEventListener('click', function(){
+  validaEmail();
+})
+
+/*$("#login_form").validate({
     errorClass: "invalid",
     messages: {
       password: {
@@ -14,27 +20,23 @@ $("#login_form").validate({
       }
     }
     });
-    function verificaInputs()
-{
-  const valorEmail = email.value.trim();
-  
-  if(valorEmail === '')
-  {
-     validandoErro(email, "Preencha o campo");
-  }
-  
-  else
-  {  
-     if(valorEmail.match(/[@]/) && valorEmail.match(/[.com]/))
-     {
-         validandoSucesso(email);
-     }
+    function verificaInputs()*/
 
-     else
-     {
-         validandoErro(email, "Digite um e-mail válido");
-     }
+  function validaEmail(){
+    const valorEmail = email.value.trim();
+    const regex_Email = /.com/;
 
-  }
+    if(valorEmail === ""){
+      alert("Digite um email")
     }
+
+    else if(valorEmail.match(/[@]/) && valorEmail.match(regex_Email))
+    {
+      alert("E-mail validado com sucesso!")
+    }
+    else{
+      alert("Digite um e-mail válido!")
+    }
+  }
+  
     
