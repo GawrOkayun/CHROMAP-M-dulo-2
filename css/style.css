@@ -143,8 +143,6 @@ main{
 #todos-servicos h2, #section-preto-e-branco h2, #section-sepia h2, #section-arco-iris h2{
     text-align: center;
     color: var(--cor_H2);
-    /*text-shadow: 0.1em 0.1em 0.1em black;*/
-    /*margin-bottom: 30px;*/
 }
 
 .container-cartoes-servicos{
@@ -162,7 +160,6 @@ main{
     margin: 0px 10px;
     margin-bottom: 30px;
     max-width: 300px;
-    
 }
 
 .cartao-servicos p{
@@ -316,6 +313,7 @@ footer{
 .containerGeralForm{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .containerGeralSecundarioLE{
@@ -375,7 +373,7 @@ input.form-control{
 }
 
 .btn-custom{
-  /  padding: 5px 25px 5px 25px;/
+    padding: 5px 25px 5px 25px;
     border-radius: 20%;
 }
 
@@ -395,7 +393,7 @@ input.form-control{
     border: 1px solid #e9ecef;
 }
 
-/PAGINA DA NOSSA EQUIPE*/
+/*PAGINA DA NOSSA EQUIPE*/
 
 .container-geral-nossa-equipe{
 
@@ -409,13 +407,11 @@ input.form-control{
 .container-secundario-nossa-equipe{
     margin-top: 100px;
     width: 80vw;
-    height: 70vh;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px
-;
-    
+    gap: 10px;
 }
 
 .container-card-aluno{
@@ -430,7 +426,6 @@ input.form-control{
     box-shadow: 3px  5px 8px #747474;
     transition: 0.7s ease;
     background-color: rgb(255, 255, 255);
-
 }
 
 .container-card-aluno img{
@@ -441,6 +436,9 @@ input.form-control{
     box-shadow: 3px  5px 8px #000000;
 }
 
+.testeeewd{
+    color: #fdc8c8;
+}
 .container-card-aluno p {
     font-size: 25px;
     text-shadow: #000000;
@@ -450,7 +448,6 @@ input.form-control{
     width: 200px;
     height: 200px;
     margin-top: 5px;
-    
 }
 
 .container-info-aluno{

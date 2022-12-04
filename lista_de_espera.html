@@ -13,7 +13,6 @@
 <body>
     <header>
     <nav class="navbar navbar-dark bg-dark fixed-top">
-
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">FrontEnders</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -40,77 +39,55 @@
         </div>
       </nav>
     </header>
-    
     <main class="containerGeralForm">
-
       <div class="containerGeralSecundarioLE">
-
         <div class="container mt-5">
-    
           <div class="row justify-content-center">
               <div class="lateral ">
-  
               </div>
-              
               <div class="formulario col-6">
-                
                   <div class="form-group ">
                       <input class="form-control col-4" type="text"  id="cep" placeholder="CEP">
                   </div>
-                 
                   <div class="form-group">
                       <input class="form-control " type="text" id="uf"  placeholder="UF" readonly>
                   </div>
-      
                   <div class="form-group">
                       <input class="form-control " type="text" name="Cidade" id="cidade" placeholder="Cidade" readonly>
                   </div>
-      
                   <div class="form-group">
                       <div class="input-group">
                           <input type="text" class="form-control col-8" placeholder="Logradouro" id="logradouro" readonly>
                           <input type="text" class="form-control col-4" placeholder="Número" id="numero">
-                 
                       </div>
                   </div>
-      
                   <div class="form-grounp">
-                      <input type="text" class="form-control " placeholder="Nome" id="bairro" >
+                      <input type="text" class="form-control " placeholder="Bairro" id="bairro" >
                   </div>
-
                   <div class="form-grounp">
-                    <input type="text" class="form-control " placeholder="E-Mail" id="bairro" >
+                    <input type="text" class="form-control " placeholder="Nome" id="nome" >
                 </div>
-
-                <div class="form-grounp">
-                  <input type="password" class="form-control " placeholder="Senha" id="bairro" >
-              </div>
-
+                  <div class="form-grounp">
+                    <input type="email" class="form-control " placeholder="E-Mail" id="email" >
+                  </div>
+                  <div class="form-grounp">
+                  <input type="password" class="form-control " placeholder="Senha" id="senha" >
+                </div>
               <div class="form-grounp">
-                <input type="password" class="form-control " placeholder="Confirmação de senha" id="bairro" >
-            </div>
-
-            <div class="form-grounp">
-              <input type="text" class="form-control " placeholder="RG" id="bairro" >
-          </div>
-                              
-      
+                <input type="password" class="form-control " placeholder="Confirmação de senha" id="senha-confirmacao" >
+              </div>
+              <div class="form-grounp">
+                <input type="text" class="form-control " placeholder="RG" id="rg" >
+              </div>
                   <div class="text-center">
                       <button type="submit" id="btn" class="btn btn-success btn-custom mt-4 justify-content-center"><svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg>
                       </button>
                   </div>
-      
               </div>
-      
-              
           </div>
-      
       </div>
-      
     </div>
-
     </main>
-
     <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script>
@@ -131,12 +108,9 @@
             $("#bairro").val(dados.bairro);
         }
     })
-
-   
 })
-
     </script>
-    <!--<footer>
+    <footer>
       <div class="container-contato-footer">
           <p>CONTATOS</p>
           <div class="containerzinho">
@@ -161,6 +135,7 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores?</p>
           </div>
       </div>
-      </footer>-->
+      </footer>
 </body>
+<script src="./scripts/validacao_lista.js"></script>
 </html>
