@@ -364,12 +364,8 @@ input.form-control{
 .lateral{
     width: 50px;
     background-color:#000000;
-<<<<<<< HEAD
-     background-image: url(../img/self.png); 
-=======
 }
     /* background-image: url(../img/self.png); /
->>>>>>> 81d308f053490580cf03e953dcb1774a462f9f70
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     margin-right: -10px;
@@ -411,13 +407,11 @@ input.form-control{
 .container-secundario-nossa-equipe{
     margin-top: 100px;
     width: 80vw;
-    height: 70vh;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px
-;
-    
+    gap: 10px;
 }
 
 .container-card-aluno{
@@ -432,7 +426,6 @@ input.form-control{
     box-shadow: 3px  5px 8px #747474;
     transition: 0.7s ease;
     background-color: rgb(255, 255, 255);
-
 }
 
 .container-card-aluno img{
@@ -443,6 +436,9 @@ input.form-control{
     box-shadow: 3px  5px 8px #000000;
 }
 
+.testeeewd{
+    color: #fdc8c8;
+}
 .container-card-aluno p {
     font-size: 25px;
     text-shadow: #000000;
@@ -452,7 +448,6 @@ input.form-control{
     width: 200px;
     height: 200px;
     margin-top: 5px;
-    
 }
 
 .container-info-aluno{
