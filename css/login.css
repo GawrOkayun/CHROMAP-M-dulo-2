@@ -37,7 +37,11 @@ body *{
 }
 
 #login_form{
-    /*margin: 0px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
 .leftlog >h1 {
     font-size: 60px;
@@ -150,7 +154,7 @@ body *{
     justify-content: center;
     margin: 10px 0px;
 }
-.buttonslogin{
+/*.buttonslogin{
     width: 120%;
     margin-top: 30px;
     padding: 16px 0px;
@@ -159,12 +163,69 @@ body *{
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: black;
     background: rgb(87, 74, 0);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px rgb(250, 219, 135);
+}*/
+
+.container-botao-colorido{
+    position: relative;
+    margin-top: 30px;
+    padding: 16px 0px;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    display: flex;
+    margin-left: 40px;
+    padding: 30px;
 }
+
+.container-botao-colorido:hover{
+    background: linear-gradient(#ff00e0, #ffeb3b, #14ffe9);
+}
+
+.container-botao-colorido span, .buttonslogin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonslogin{
+   background: #111;
+   padding: 13px;
+   color: #fff;
+   z-index: 9;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   width: 95%;
+   
+}
+
+.container-botao-colorido span{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    animation: rotate 1.5 linear infinite;
+}
+
+.container-botao-colorido span:nth-child(1){
+    filter: blur(7px);
+}
+
+.container-botao-colorido span:nth-child(2){
+    filter: blur(14px);
+}
+
+.container-botao-colorido{
+    animation: rotate 1.5 linear infinite;
+}
+
+/*.buttonslogin{
+    animation: rotate 1.5 linear infinite;
+}*/
+
 .recuperacaosenha{
     color: whitesmoke;
     margin-top: 20px;
@@ -212,5 +273,14 @@ width: 50vw;
 @media (max-width: 600px){
     .leftlog img{
         display: none;
+    }
+}
+
+@keyframes rotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
     }
 }
